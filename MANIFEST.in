@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include deltakita *.css
+recursive-include deltakita *.csv
+recursive-include deltakita *.html
+recursive-include deltakita *.ico
+recursive-include deltakita *.js
+recursive-include deltakita *.json
+recursive-include deltakita *.md
+recursive-include deltakita *.png
+recursive-include deltakita *.py
+recursive-include deltakita *.svg
+recursive-include deltakita *.txt
+recursive-exclude deltakita *.pyc
